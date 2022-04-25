@@ -1,0 +1,23 @@
+#show_video{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+
+    grid-gap: 5%;
+}
+
+#nav{
+    background-color: rgb(75, 38, 38);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 11px;
+}
+h1{
+    color: teal;
+}
